@@ -67,10 +67,9 @@ int findTable(table t,int elem){
     for (int i=0;i<t.length;i++){
         if (t.Head[i]==elem){
             return i+1;
-        } else{
-            return -1;
         }
     }
+    return -1;
 }
 
 
@@ -83,6 +82,8 @@ int main() {
     }
     c=insertTable(c,1111,6);
     c=deleteTable(c,6);
+    int tt=findTable(c,4);
     displayFun(c);
+    printf("this index is:%d\n",tt);
     return 0;
 }
