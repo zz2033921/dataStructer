@@ -72,6 +72,12 @@ int findTable(table t,int elem){
     return -1;
 }
 
+table updateTable(table t,int elem,int newElem){
+    int index=findTable(t,elem);
+    t.Head[index-1]=newElem;
+    return t;
+}
+
 
 int main() {
     printf("Hello, World!\n");
@@ -85,5 +91,7 @@ int main() {
     int tt=findTable(c,4);
     displayFun(c);
     printf("this index is:%d\n",tt);
+    c=updateTable(c,4,6789);
+    displayFun(c);
     return 0;
 }
