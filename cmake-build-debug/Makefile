@@ -131,6 +131,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named doubleLinkList
+
+# Build rule for target.
+doubleLinkList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 doubleLinkList
+.PHONY : doubleLinkList
+
+# fast build rule for target.
+doubleLinkList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doubleLinkList.dir/build.make CMakeFiles/doubleLinkList.dir/build
+.PHONY : doubleLinkList/fast
+
+#=============================================================================
+# Target rules for targets named staticListMain
+
+# Build rule for target.
+staticListMain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 staticListMain
+.PHONY : staticListMain
+
+# fast build rule for target.
+staticListMain/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/staticListMain.dir/build.make CMakeFiles/staticListMain.dir/build
+.PHONY : staticListMain/fast
+
+#=============================================================================
+# Target rules for targets named linkListMain
+
+# Build rule for target.
+linkListMain: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linkListMain
+.PHONY : linkListMain
+
+# fast build rule for target.
+linkListMain/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkListMain.dir/build.make CMakeFiles/linkListMain.dir/build
+.PHONY : linkListMain/fast
+
+#=============================================================================
 # Target rules for targets named dataStructer
 
 # Build rule for target.
@@ -142,6 +181,60 @@ dataStructer: cmake_check_build_system
 dataStructer/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructer.dir/build.make CMakeFiles/dataStructer.dir/build
 .PHONY : dataStructer/fast
+
+doubleLinkList.o: doubleLinkList.c.o
+
+.PHONY : doubleLinkList.o
+
+# target to build an object file
+doubleLinkList.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doubleLinkList.dir/build.make CMakeFiles/doubleLinkList.dir/doubleLinkList.c.o
+.PHONY : doubleLinkList.c.o
+
+doubleLinkList.i: doubleLinkList.c.i
+
+.PHONY : doubleLinkList.i
+
+# target to preprocess a source file
+doubleLinkList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doubleLinkList.dir/build.make CMakeFiles/doubleLinkList.dir/doubleLinkList.c.i
+.PHONY : doubleLinkList.c.i
+
+doubleLinkList.s: doubleLinkList.c.s
+
+.PHONY : doubleLinkList.s
+
+# target to generate assembly for a file
+doubleLinkList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/doubleLinkList.dir/build.make CMakeFiles/doubleLinkList.dir/doubleLinkList.c.s
+.PHONY : doubleLinkList.c.s
+
+linkList.o: linkList.c.o
+
+.PHONY : linkList.o
+
+# target to build an object file
+linkList.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkListMain.dir/build.make CMakeFiles/linkListMain.dir/linkList.c.o
+.PHONY : linkList.c.o
+
+linkList.i: linkList.c.i
+
+.PHONY : linkList.i
+
+# target to preprocess a source file
+linkList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkListMain.dir/build.make CMakeFiles/linkListMain.dir/linkList.c.i
+.PHONY : linkList.c.i
+
+linkList.s: linkList.c.s
+
+.PHONY : linkList.s
+
+# target to generate assembly for a file
+linkList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkListMain.dir/build.make CMakeFiles/linkListMain.dir/linkList.c.s
+.PHONY : linkList.c.s
 
 main.o: main.c.o
 
@@ -170,6 +263,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructer.dir/build.make CMakeFiles/dataStructer.dir/main.c.s
 .PHONY : main.c.s
 
+staticList.o: staticList.c.o
+
+.PHONY : staticList.o
+
+# target to build an object file
+staticList.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/staticListMain.dir/build.make CMakeFiles/staticListMain.dir/staticList.c.o
+.PHONY : staticList.c.o
+
+staticList.i: staticList.c.i
+
+.PHONY : staticList.i
+
+# target to preprocess a source file
+staticList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/staticListMain.dir/build.make CMakeFiles/staticListMain.dir/staticList.c.i
+.PHONY : staticList.c.i
+
+staticList.s: staticList.c.s
+
+.PHONY : staticList.s
+
+# target to generate assembly for a file
+staticList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/staticListMain.dir/build.make CMakeFiles/staticListMain.dir/staticList.c.s
+.PHONY : staticList.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -179,9 +299,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... dataStructer"
+	@echo "... doubleLinkList"
+	@echo "... linkListMain"
+	@echo "... staticListMain"
+	@echo "... doubleLinkList.o"
+	@echo "... doubleLinkList.i"
+	@echo "... doubleLinkList.s"
+	@echo "... linkList.o"
+	@echo "... linkList.i"
+	@echo "... linkList.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... staticList.o"
+	@echo "... staticList.i"
+	@echo "... staticList.s"
 .PHONY : help
 
 
