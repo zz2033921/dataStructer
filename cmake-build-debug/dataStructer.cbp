@@ -37,6 +37,86 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="stackForLinkList">
+				<Option output="/Users/yz/CLionProjects/dataStructer/cmake-build-debug/stackForLinkList" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yz/CLionProjects/dataStructer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 stackForLinkList"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stackForLinkList/fast">
+				<Option output="/Users/yz/CLionProjects/dataStructer/cmake-build-debug/stackForLinkList" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yz/CLionProjects/dataStructer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 stackForLinkList/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stackForSub">
+				<Option output="/Users/yz/CLionProjects/dataStructer/cmake-build-debug/stackForSub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yz/CLionProjects/dataStructer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 stackForSub"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stackForSub/fast">
+				<Option output="/Users/yz/CLionProjects/dataStructer/cmake-build-debug/stackForSub" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yz/CLionProjects/dataStructer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 stackForSub/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="doubleLinkList">
 				<Option output="/Users/yz/CLionProjects/dataStructer/cmake-build-debug/doubleLinkList" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yz/CLionProjects/dataStructer/cmake-build-debug"/>
@@ -77,6 +157,46 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="circuQueue">
+				<Option output="/Users/yz/CLionProjects/dataStructer/cmake-build-debug/circuQueue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yz/CLionProjects/dataStructer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 circuQueue"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="circuQueue/fast">
+				<Option output="/Users/yz/CLionProjects/dataStructer/cmake-build-debug/circuQueue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yz/CLionProjects/dataStructer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 circuQueue/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="staticListMain">
 				<Option output="/Users/yz/CLionProjects/dataStructer/cmake-build-debug/staticListMain" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/yz/CLionProjects/dataStructer/cmake-build-debug"/>
@@ -112,6 +232,46 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 staticListMain/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleQueue">
+				<Option output="/Users/yz/CLionProjects/dataStructer/cmake-build-debug/simpleQueue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yz/CLionProjects/dataStructer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 simpleQueue"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleQueue/fast">
+				<Option output="/Users/yz/CLionProjects/dataStructer/cmake-build-debug/simpleQueue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/yz/CLionProjects/dataStructer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 simpleQueue/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/yz/CLionProjects/dataStructer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -206,6 +366,18 @@
 		</Unit>
 		<Unit filename="/Users/yz/CLionProjects/dataStructer/main.c">
 			<Option target="dataStructer"/>
+		</Unit>
+		<Unit filename="/Users/yz/CLionProjects/dataStructer/queue/circuQueue.c">
+			<Option target="circuQueue"/>
+		</Unit>
+		<Unit filename="/Users/yz/CLionProjects/dataStructer/queue/simpleQueue.c">
+			<Option target="simpleQueue"/>
+		</Unit>
+		<Unit filename="/Users/yz/CLionProjects/dataStructer/stackForLinkList.c">
+			<Option target="stackForLinkList"/>
+		</Unit>
+		<Unit filename="/Users/yz/CLionProjects/dataStructer/stackForSub.c">
+			<Option target="stackForSub"/>
 		</Unit>
 		<Unit filename="/Users/yz/CLionProjects/dataStructer/staticList.c">
 			<Option target="staticListMain"/>

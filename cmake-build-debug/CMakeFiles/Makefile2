@@ -73,8 +73,12 @@ CMAKE_BINARY_DIR = /Users/yz/CLionProjects/dataStructer/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/stackForLinkList.dir/all
+all: CMakeFiles/stackForSub.dir/all
 all: CMakeFiles/doubleLinkList.dir/all
+all: CMakeFiles/circuQueue.dir/all
 all: CMakeFiles/staticListMain.dir/all
+all: CMakeFiles/simpleQueue.dir/all
 all: CMakeFiles/linkListMain.dir/all
 all: CMakeFiles/dataStructer.dir/all
 
@@ -86,12 +90,70 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/stackForLinkList.dir/clean
+clean: CMakeFiles/stackForSub.dir/clean
 clean: CMakeFiles/doubleLinkList.dir/clean
+clean: CMakeFiles/circuQueue.dir/clean
 clean: CMakeFiles/staticListMain.dir/clean
+clean: CMakeFiles/simpleQueue.dir/clean
 clean: CMakeFiles/linkListMain.dir/clean
 clean: CMakeFiles/dataStructer.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stackForLinkList.dir
+
+# All Build rule for target.
+CMakeFiles/stackForLinkList.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stackForLinkList.dir/build.make CMakeFiles/stackForLinkList.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stackForLinkList.dir/build.make CMakeFiles/stackForLinkList.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target stackForLinkList"
+.PHONY : CMakeFiles/stackForLinkList.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stackForLinkList.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/stackForLinkList.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/stackForLinkList.dir/rule
+
+# Convenience name for target.
+stackForLinkList: CMakeFiles/stackForLinkList.dir/rule
+
+.PHONY : stackForLinkList
+
+# clean rule for target.
+CMakeFiles/stackForLinkList.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stackForLinkList.dir/build.make CMakeFiles/stackForLinkList.dir/clean
+.PHONY : CMakeFiles/stackForLinkList.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/stackForSub.dir
+
+# All Build rule for target.
+CMakeFiles/stackForSub.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stackForSub.dir/build.make CMakeFiles/stackForSub.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stackForSub.dir/build.make CMakeFiles/stackForSub.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target stackForSub"
+.PHONY : CMakeFiles/stackForSub.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/stackForSub.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/stackForSub.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/stackForSub.dir/rule
+
+# Convenience name for target.
+stackForSub: CMakeFiles/stackForSub.dir/rule
+
+.PHONY : stackForSub
+
+# clean rule for target.
+CMakeFiles/stackForSub.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stackForSub.dir/build.make CMakeFiles/stackForSub.dir/clean
+.PHONY : CMakeFiles/stackForSub.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/doubleLinkList.dir
@@ -100,7 +162,7 @@ clean: CMakeFiles/dataStructer.dir/clean
 CMakeFiles/doubleLinkList.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/doubleLinkList.dir/build.make CMakeFiles/doubleLinkList.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/doubleLinkList.dir/build.make CMakeFiles/doubleLinkList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target doubleLinkList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target doubleLinkList"
 .PHONY : CMakeFiles/doubleLinkList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -121,13 +183,40 @@ CMakeFiles/doubleLinkList.dir/clean:
 .PHONY : CMakeFiles/doubleLinkList.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/circuQueue.dir
+
+# All Build rule for target.
+CMakeFiles/circuQueue.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circuQueue.dir/build.make CMakeFiles/circuQueue.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circuQueue.dir/build.make CMakeFiles/circuQueue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target circuQueue"
+.PHONY : CMakeFiles/circuQueue.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/circuQueue.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/circuQueue.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/circuQueue.dir/rule
+
+# Convenience name for target.
+circuQueue: CMakeFiles/circuQueue.dir/rule
+
+.PHONY : circuQueue
+
+# clean rule for target.
+CMakeFiles/circuQueue.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circuQueue.dir/build.make CMakeFiles/circuQueue.dir/clean
+.PHONY : CMakeFiles/circuQueue.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/staticListMain.dir
 
 # All Build rule for target.
 CMakeFiles/staticListMain.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/staticListMain.dir/build.make CMakeFiles/staticListMain.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/staticListMain.dir/build.make CMakeFiles/staticListMain.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target staticListMain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target staticListMain"
 .PHONY : CMakeFiles/staticListMain.dir/all
 
 # Build rule for subdir invocation for target.
@@ -148,13 +237,40 @@ CMakeFiles/staticListMain.dir/clean:
 .PHONY : CMakeFiles/staticListMain.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/simpleQueue.dir
+
+# All Build rule for target.
+CMakeFiles/simpleQueue.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleQueue.dir/build.make CMakeFiles/simpleQueue.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleQueue.dir/build.make CMakeFiles/simpleQueue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target simpleQueue"
+.PHONY : CMakeFiles/simpleQueue.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/simpleQueue.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simpleQueue.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/simpleQueue.dir/rule
+
+# Convenience name for target.
+simpleQueue: CMakeFiles/simpleQueue.dir/rule
+
+.PHONY : simpleQueue
+
+# clean rule for target.
+CMakeFiles/simpleQueue.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleQueue.dir/build.make CMakeFiles/simpleQueue.dir/clean
+.PHONY : CMakeFiles/simpleQueue.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/linkListMain.dir
 
 # All Build rule for target.
 CMakeFiles/linkListMain.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkListMain.dir/build.make CMakeFiles/linkListMain.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkListMain.dir/build.make CMakeFiles/linkListMain.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target linkListMain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target linkListMain"
 .PHONY : CMakeFiles/linkListMain.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,7 +297,7 @@ CMakeFiles/linkListMain.dir/clean:
 CMakeFiles/dataStructer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructer.dir/build.make CMakeFiles/dataStructer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructer.dir/build.make CMakeFiles/dataStructer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target dataStructer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target dataStructer"
 .PHONY : CMakeFiles/dataStructer.dir/all
 
 # Build rule for subdir invocation for target.

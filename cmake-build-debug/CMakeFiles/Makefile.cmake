@@ -47,8 +47,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/stackForLinkList.dir/DependInfo.cmake"
+  "CMakeFiles/stackForSub.dir/DependInfo.cmake"
   "CMakeFiles/doubleLinkList.dir/DependInfo.cmake"
+  "CMakeFiles/circuQueue.dir/DependInfo.cmake"
   "CMakeFiles/staticListMain.dir/DependInfo.cmake"
+  "CMakeFiles/simpleQueue.dir/DependInfo.cmake"
   "CMakeFiles/linkListMain.dir/DependInfo.cmake"
   "CMakeFiles/dataStructer.dir/DependInfo.cmake"
   )

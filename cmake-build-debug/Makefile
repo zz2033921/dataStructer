@@ -131,6 +131,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named stackForLinkList
+
+# Build rule for target.
+stackForLinkList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stackForLinkList
+.PHONY : stackForLinkList
+
+# fast build rule for target.
+stackForLinkList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stackForLinkList.dir/build.make CMakeFiles/stackForLinkList.dir/build
+.PHONY : stackForLinkList/fast
+
+#=============================================================================
+# Target rules for targets named stackForSub
+
+# Build rule for target.
+stackForSub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stackForSub
+.PHONY : stackForSub
+
+# fast build rule for target.
+stackForSub/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stackForSub.dir/build.make CMakeFiles/stackForSub.dir/build
+.PHONY : stackForSub/fast
+
+#=============================================================================
 # Target rules for targets named doubleLinkList
 
 # Build rule for target.
@@ -144,6 +170,19 @@ doubleLinkList/fast:
 .PHONY : doubleLinkList/fast
 
 #=============================================================================
+# Target rules for targets named circuQueue
+
+# Build rule for target.
+circuQueue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 circuQueue
+.PHONY : circuQueue
+
+# fast build rule for target.
+circuQueue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circuQueue.dir/build.make CMakeFiles/circuQueue.dir/build
+.PHONY : circuQueue/fast
+
+#=============================================================================
 # Target rules for targets named staticListMain
 
 # Build rule for target.
@@ -155,6 +194,19 @@ staticListMain: cmake_check_build_system
 staticListMain/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/staticListMain.dir/build.make CMakeFiles/staticListMain.dir/build
 .PHONY : staticListMain/fast
+
+#=============================================================================
+# Target rules for targets named simpleQueue
+
+# Build rule for target.
+simpleQueue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simpleQueue
+.PHONY : simpleQueue
+
+# fast build rule for target.
+simpleQueue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleQueue.dir/build.make CMakeFiles/simpleQueue.dir/build
+.PHONY : simpleQueue/fast
 
 #=============================================================================
 # Target rules for targets named linkListMain
@@ -263,6 +315,114 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dataStructer.dir/build.make CMakeFiles/dataStructer.dir/main.c.s
 .PHONY : main.c.s
 
+queue/circuQueue.o: queue/circuQueue.c.o
+
+.PHONY : queue/circuQueue.o
+
+# target to build an object file
+queue/circuQueue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circuQueue.dir/build.make CMakeFiles/circuQueue.dir/queue/circuQueue.c.o
+.PHONY : queue/circuQueue.c.o
+
+queue/circuQueue.i: queue/circuQueue.c.i
+
+.PHONY : queue/circuQueue.i
+
+# target to preprocess a source file
+queue/circuQueue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circuQueue.dir/build.make CMakeFiles/circuQueue.dir/queue/circuQueue.c.i
+.PHONY : queue/circuQueue.c.i
+
+queue/circuQueue.s: queue/circuQueue.c.s
+
+.PHONY : queue/circuQueue.s
+
+# target to generate assembly for a file
+queue/circuQueue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/circuQueue.dir/build.make CMakeFiles/circuQueue.dir/queue/circuQueue.c.s
+.PHONY : queue/circuQueue.c.s
+
+queue/simpleQueue.o: queue/simpleQueue.c.o
+
+.PHONY : queue/simpleQueue.o
+
+# target to build an object file
+queue/simpleQueue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleQueue.dir/build.make CMakeFiles/simpleQueue.dir/queue/simpleQueue.c.o
+.PHONY : queue/simpleQueue.c.o
+
+queue/simpleQueue.i: queue/simpleQueue.c.i
+
+.PHONY : queue/simpleQueue.i
+
+# target to preprocess a source file
+queue/simpleQueue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleQueue.dir/build.make CMakeFiles/simpleQueue.dir/queue/simpleQueue.c.i
+.PHONY : queue/simpleQueue.c.i
+
+queue/simpleQueue.s: queue/simpleQueue.c.s
+
+.PHONY : queue/simpleQueue.s
+
+# target to generate assembly for a file
+queue/simpleQueue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simpleQueue.dir/build.make CMakeFiles/simpleQueue.dir/queue/simpleQueue.c.s
+.PHONY : queue/simpleQueue.c.s
+
+stackForLinkList.o: stackForLinkList.c.o
+
+.PHONY : stackForLinkList.o
+
+# target to build an object file
+stackForLinkList.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stackForLinkList.dir/build.make CMakeFiles/stackForLinkList.dir/stackForLinkList.c.o
+.PHONY : stackForLinkList.c.o
+
+stackForLinkList.i: stackForLinkList.c.i
+
+.PHONY : stackForLinkList.i
+
+# target to preprocess a source file
+stackForLinkList.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stackForLinkList.dir/build.make CMakeFiles/stackForLinkList.dir/stackForLinkList.c.i
+.PHONY : stackForLinkList.c.i
+
+stackForLinkList.s: stackForLinkList.c.s
+
+.PHONY : stackForLinkList.s
+
+# target to generate assembly for a file
+stackForLinkList.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stackForLinkList.dir/build.make CMakeFiles/stackForLinkList.dir/stackForLinkList.c.s
+.PHONY : stackForLinkList.c.s
+
+stackForSub.o: stackForSub.c.o
+
+.PHONY : stackForSub.o
+
+# target to build an object file
+stackForSub.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stackForSub.dir/build.make CMakeFiles/stackForSub.dir/stackForSub.c.o
+.PHONY : stackForSub.c.o
+
+stackForSub.i: stackForSub.c.i
+
+.PHONY : stackForSub.i
+
+# target to preprocess a source file
+stackForSub.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stackForSub.dir/build.make CMakeFiles/stackForSub.dir/stackForSub.c.i
+.PHONY : stackForSub.c.i
+
+stackForSub.s: stackForSub.c.s
+
+.PHONY : stackForSub.s
+
+# target to generate assembly for a file
+stackForSub.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stackForSub.dir/build.make CMakeFiles/stackForSub.dir/stackForSub.c.s
+.PHONY : stackForSub.c.s
+
 staticList.o: staticList.c.o
 
 .PHONY : staticList.o
@@ -298,9 +458,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... circuQueue"
 	@echo "... dataStructer"
 	@echo "... doubleLinkList"
 	@echo "... linkListMain"
+	@echo "... simpleQueue"
+	@echo "... stackForLinkList"
+	@echo "... stackForSub"
 	@echo "... staticListMain"
 	@echo "... doubleLinkList.o"
 	@echo "... doubleLinkList.i"
@@ -311,6 +475,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... queue/circuQueue.o"
+	@echo "... queue/circuQueue.i"
+	@echo "... queue/circuQueue.s"
+	@echo "... queue/simpleQueue.o"
+	@echo "... queue/simpleQueue.i"
+	@echo "... queue/simpleQueue.s"
+	@echo "... stackForLinkList.o"
+	@echo "... stackForLinkList.i"
+	@echo "... stackForLinkList.s"
+	@echo "... stackForSub.o"
+	@echo "... stackForSub.i"
+	@echo "... stackForSub.s"
 	@echo "... staticList.o"
 	@echo "... staticList.i"
 	@echo "... staticList.s"
