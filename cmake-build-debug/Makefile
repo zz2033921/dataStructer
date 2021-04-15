@@ -76,17 +76,6 @@ CMAKE_BINARY_DIR = /Users/yz/CLionProjects/dataStructer/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -97,6 +86,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -129,6 +129,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named linkQueue
+
+# Build rule for target.
+linkQueue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 linkQueue
+.PHONY : linkQueue
+
+# fast build rule for target.
+linkQueue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkQueue.dir/build.make CMakeFiles/linkQueue.dir/build
+.PHONY : linkQueue/fast
 
 #=============================================================================
 # Target rules for targets named stackForLinkList
@@ -342,6 +355,33 @@ queue/circuQueue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/circuQueue.dir/build.make CMakeFiles/circuQueue.dir/queue/circuQueue.c.s
 .PHONY : queue/circuQueue.c.s
 
+queue/linkQueue.o: queue/linkQueue.c.o
+
+.PHONY : queue/linkQueue.o
+
+# target to build an object file
+queue/linkQueue.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkQueue.dir/build.make CMakeFiles/linkQueue.dir/queue/linkQueue.c.o
+.PHONY : queue/linkQueue.c.o
+
+queue/linkQueue.i: queue/linkQueue.c.i
+
+.PHONY : queue/linkQueue.i
+
+# target to preprocess a source file
+queue/linkQueue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkQueue.dir/build.make CMakeFiles/linkQueue.dir/queue/linkQueue.c.i
+.PHONY : queue/linkQueue.c.i
+
+queue/linkQueue.s: queue/linkQueue.c.s
+
+.PHONY : queue/linkQueue.s
+
+# target to generate assembly for a file
+queue/linkQueue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/linkQueue.dir/build.make CMakeFiles/linkQueue.dir/queue/linkQueue.c.s
+.PHONY : queue/linkQueue.c.s
+
 queue/simpleQueue.o: queue/simpleQueue.c.o
 
 .PHONY : queue/simpleQueue.o
@@ -462,6 +502,7 @@ help:
 	@echo "... dataStructer"
 	@echo "... doubleLinkList"
 	@echo "... linkListMain"
+	@echo "... linkQueue"
 	@echo "... simpleQueue"
 	@echo "... stackForLinkList"
 	@echo "... stackForSub"
@@ -478,6 +519,9 @@ help:
 	@echo "... queue/circuQueue.o"
 	@echo "... queue/circuQueue.i"
 	@echo "... queue/circuQueue.s"
+	@echo "... queue/linkQueue.o"
+	@echo "... queue/linkQueue.i"
+	@echo "... queue/linkQueue.s"
 	@echo "... queue/simpleQueue.o"
 	@echo "... queue/simpleQueue.i"
 	@echo "... queue/simpleQueue.s"

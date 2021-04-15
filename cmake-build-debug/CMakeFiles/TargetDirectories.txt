@@ -1,5 +1,6 @@
-/Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles/linkQueue.dir
 /Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles/stackForLinkList.dir
 /Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles/stackForSub.dir
 /Users/yz/CLionProjects/dataStructer/cmake-build-debug/CMakeFiles/doubleLinkList.dir
